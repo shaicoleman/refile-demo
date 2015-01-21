@@ -23,6 +23,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 # Refile image uploads
+gem 'aws-sdk'
 gem 'mini_magick'
 gem 'refile', require: ['refile/rails', 'refile/image_processing']
 
